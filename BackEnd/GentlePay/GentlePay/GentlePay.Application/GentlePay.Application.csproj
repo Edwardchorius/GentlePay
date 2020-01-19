@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain.Contracts\Services\" />
+    <Folder Include="Domain.Contracts\Repositories\" />
+    <Folder Include="Domain.Services\" />
+    <Folder Include="Domain.InputModels\" />
+    <Folder Include="Domain.Entities\" />
+  </ItemGroup>
+
+</Project>
