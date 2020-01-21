@@ -1,11 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.ComponentModel.DataAnnotations;
 
 namespace GentlePay.Persistence.Data.Models.BaseModel
 {
     public abstract class BaseDataModel : IDataModel
     {
+        [Key]
+        public Guid Id { get; set; }
         public string CreatedBy { get; set; }
         public DateTime CreatedOn { get; set; }
 

@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GentlePay.Application", "Ge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GentlePay.Persistence", "GentlePay.Persistence\GentlePay.Persistence.csproj", "{7361A230-C68D-483F-AA76-FCB6B6BEA478}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GentlePay.Domain", "GentlePay.Domain\GentlePay.Domain.csproj", "{F3BB075E-0DAB-49B3-AF69-71776146A2D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7361A230-C68D-483F-AA76-FCB6B6BEA478}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7361A230-C68D-483F-AA76-FCB6B6BEA478}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7361A230-C68D-483F-AA76-FCB6B6BEA478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3BB075E-0DAB-49B3-AF69-71776146A2D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3BB075E-0DAB-49B3-AF69-71776146A2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3BB075E-0DAB-49B3-AF69-71776146A2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3BB075E-0DAB-49B3-AF69-71776146A2D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{89EF501C-05DC-439D-BD05-0F243FAF01A7} = {6B280AD1-6B94-45F8-9AB2-244236E21CFB}
 		{A25F8FC4-C9B2-4E65-8827-00D14C370805} = {F1F9EFBA-0ED5-4DD6-8F94-2018408F8B24}
 		{7361A230-C68D-483F-AA76-FCB6B6BEA478} = {A01913A6-88AF-4DBF-A3F6-EDE0D4EA7F7A}
+		{F3BB075E-0DAB-49B3-AF69-71776146A2D6} = {F1F9EFBA-0ED5-4DD6-8F94-2018408F8B24}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {946C3092-F995-47C6-9C4C-B05BA4D8B899}

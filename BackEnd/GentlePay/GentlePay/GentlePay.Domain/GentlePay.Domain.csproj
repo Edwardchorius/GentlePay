@@ -5,10 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contracts\Services\" />
-    <Folder Include="Contracts\Repositories\" />
-    <Folder Include="Services\" />
-    <Folder Include="InputModels\" />
+    <Folder Include="Entities\" />
   </ItemGroup>
 
 </Project>
