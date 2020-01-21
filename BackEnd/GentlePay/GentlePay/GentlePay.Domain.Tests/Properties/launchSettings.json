@@ -1,7 +1,0 @@
-{
-  "profiles": {
-    "GentlePay.Domain.Tests": {
-      "commandName": "Project"
-    }
-  }
-}
