@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 namespace GentlePay.Persistence.Data.Models
 {
-    public class User : BaseDataModel
+    public class UserModel : BaseDataModel
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public IEnumerable<Account> Accounts { get; set; }       
+        public IEnumerable<AccountModel> Accounts { get; set; }       
     }
 }

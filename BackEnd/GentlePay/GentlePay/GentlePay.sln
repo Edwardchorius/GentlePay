@@ -13,9 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationCore", "Applicat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GentlePay.Application", "GentlePay.Application\GentlePay.Application.csproj", "{A25F8FC4-C9B2-4E65-8827-00D14C370805}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GentlePay.Persistence", "GentlePay.Persistence\GentlePay.Persistence.csproj", "{7361A230-C68D-483F-AA76-FCB6B6BEA478}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GentlePay.Persistence", "GentlePay.Persistence\GentlePay.Persistence.csproj", "{7361A230-C68D-483F-AA76-FCB6B6BEA478}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GentlePay.Domain", "GentlePay.Domain\GentlePay.Domain.csproj", "{F3BB075E-0DAB-49B3-AF69-71776146A2D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GentlePay.Domain", "GentlePay.Domain\GentlePay.Domain.csproj", "{F3BB075E-0DAB-49B3-AF69-71776146A2D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GentlePay.Domain.Tests", "GentlePay.Domain.Tests\GentlePay.Domain.Tests.csproj", "{FC07E836-1C00-4974-A41B-2CB14CA101E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F3BB075E-0DAB-49B3-AF69-71776146A2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3BB075E-0DAB-49B3-AF69-71776146A2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3BB075E-0DAB-49B3-AF69-71776146A2D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC07E836-1C00-4974-A41B-2CB14CA101E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC07E836-1C00-4974-A41B-2CB14CA101E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC07E836-1C00-4974-A41B-2CB14CA101E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC07E836-1C00-4974-A41B-2CB14CA101E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{A25F8FC4-C9B2-4E65-8827-00D14C370805} = {F1F9EFBA-0ED5-4DD6-8F94-2018408F8B24}
 		{7361A230-C68D-483F-AA76-FCB6B6BEA478} = {A01913A6-88AF-4DBF-A3F6-EDE0D4EA7F7A}
 		{F3BB075E-0DAB-49B3-AF69-71776146A2D6} = {F1F9EFBA-0ED5-4DD6-8F94-2018408F8B24}
+		{FC07E836-1C00-4974-A41B-2CB14CA101E5} = {F1F9EFBA-0ED5-4DD6-8F94-2018408F8B24}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {946C3092-F995-47C6-9C4C-B05BA4D8B899}
