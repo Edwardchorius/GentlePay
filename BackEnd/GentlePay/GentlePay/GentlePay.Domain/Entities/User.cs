@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace GentlePay.Domain.Entities
@@ -31,8 +32,18 @@ namespace GentlePay.Domain.Entities
 
         public void AddFundsToAccount(Account accountToAddTo, decimal amount)
         {
-            this.Accounts.Add(accountToAddTo);
-            accountToAddTo.Balance += amount;
+            var userAccountToAddTo = this.Accounts.FirstOrDefault(account => account.Equals(accountToAddTo));
+
+            if (amount <= 0)
+            {
+                throw new ArgumentException($"{amount} should be larger than 0");
+            }
+            if(userAccountToAddTo is null)
+            {
+                throw new ArgumentException("No such account");
+            }
+
+            userAccountToAddTo.Balance += amount;
         }
     }
 }
