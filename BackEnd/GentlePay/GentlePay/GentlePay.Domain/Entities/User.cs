@@ -27,6 +27,12 @@ namespace GentlePay.Domain.Entities
 
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public IEnumerable<Account> Accounts { get; set; }
+        public ICollection<Account> Accounts { get; set; }
+
+        public void AddFundsToAccount(Account accountToAddTo, decimal amount)
+        {
+            this.Accounts.Add(accountToAddTo);
+            accountToAddTo.Balance += amount;
+        }
     }
 }
